@@ -1,0 +1,103 @@
+    body {
+    font-family: poppins, sans-serif;
+    background-color:rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 70vh%;
+    background-color:transparent;
+    border-style: groove;
+    border-radius: 20px;
+    box-shadow: 8px 8px 100px rgb(33, 172, 137);
+    padding: 2rem;
+    border: none;
+    padding-top: 2vw;
+    width: 40vw;
+    text-align: center;
+}
+
+#res {
+    width: calc(340px);
+    height: 50px;
+    font-size: 50px;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    padding-right: 50px;
+    border: 2px;
+    border-style: outset;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    transition: background-color 0.7s;
+    box-shadow: 4px 4px 10px rgb(241, 71, 71);
+}
+
+.btn {
+    padding-left:15%;
+    display: grid;
+    font-size: 1 rem;
+   grid-template-columns: repeat(5, 1fr);
+    gap:25px;
+}
+input[type="button"] {
+    padding: 15px;
+    font-size: 28px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(50, 49, 49);
+    color: #fff;
+    transition: background-color 0.7s;
+    box-shadow: 4px 4px 10px rgb(241, 71, 71);
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+input[type="button"][value="C"] {
+    background-color: #e74c3c;
+}
+
+input[type="button"][value="C"]:hover {
+    background-color: #c0392b;
+}
+
+input[type="button"][value="="] {
+    background-color: #3498db;
+}
+
+input[type="button"][value="="]:hover {
+    background-color: #2980b9;
+}
+.calculator{
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.calu{
+    opacity: 60%;
+    font-size: 10px;
+}
+.name{
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    margin-top: 50px;
+    opacity: 10%;
+}
+.calculator::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    border-left: 4px solid blue;
+}
